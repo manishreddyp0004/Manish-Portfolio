@@ -7,23 +7,24 @@ import { About } from "@/components/portfolio/About";
 import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
 import { Journey } from "@/components/portfolio/Journey";
+import { Certifications } from "@/components/portfolio/Certifications";
 import { Contact } from "@/components/portfolio/Contact";
 import { Marquee } from "@/components/portfolio/Marquee";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Varshith Julakanti — AI Engineer" },
+      { title: "Patlolla Manish Reddy — Software Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Varshith Julakanti — AI Engineer building intelligent, AI-driven systems across ML, DL, Computer Vision and MLOps.",
+          "Portfolio of Patlolla Manish Reddy — CS undergraduate building software solutions across backend systems, DSA and AI-powered apps.",
       },
-      { property: "og:title", content: "Varshith Julakanti — AI Engineer" },
+      { property: "og:title", content: "Patlolla Manish Reddy — Software Developer" },
       {
         property: "og:description",
         content:
-          "AI Engineer based in Amaravati. Deep learning, computer vision, MLOps.",
+          "Software developer based in Hyderabad. Java, Python, backend systems and AI.",
       },
     ],
   }),
@@ -44,6 +45,7 @@ function Index() {
           <Skills />
           <Projects />
           <Journey />
+          <Certifications />
           <Contact />
         </>
       )}

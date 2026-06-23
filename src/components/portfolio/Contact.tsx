@@ -3,10 +3,10 @@ import { motion } from "motion/react";
 import { SectionHeader } from "./SectionHeader";
 
 const socials = [
-  { label: "Email", href: "mailto:hello@varshith.ai", value: "hello@varshith.ai" },
-  { label: "GitHub", href: "https://github.com/", value: "@varshith" },
-  { label: "LinkedIn", href: "https://linkedin.com/", value: "in/varshith" },
-  { label: "Location", href: "#", value: "Amaravati, India" },
+  { label: "Email", href: "mailto:manishreddy@example.com", value: "manishreddy@example.com" },
+  { label: "GitHub", href: "https://github.com/", value: "@manishreddy" },
+  { label: "LinkedIn", href: "https://linkedin.com/", value: "in/manish-reddy" },
+  { label: "Location", href: "#", value: "Hyderabad, India" },
 ];
 
 export function Contact() {
@@ -15,8 +15,8 @@ export function Contact() {
   return (
     <section id="contact" className="relative py-32">
       <div className="mx-auto w-[min(1200px,92vw)]">
-        <SectionHeader index="05" kicker="Contact" title={<>Let's build something intelligent.</>}>
-          Working on a model, a product, or just a wild idea? I'd love to hear about it.
+        <SectionHeader index="06" kicker="Contact" title={<>Let's build something great.</>}>
+          Working on a product, a project, or just a wild idea? I'd love to hear about it.
         </SectionHeader>
 
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr]">
@@ -93,7 +93,7 @@ export function Contact() {
               ))}
             </ul>
             <div className="font-mono text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Varshith Julakanti · Built with care.
+              © {new Date().getFullYear()} Patlolla Manish Reddy · Built with care.
             </div>
           </motion.div>
         </div>

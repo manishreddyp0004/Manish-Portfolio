@@ -2,46 +2,14 @@ import { motion } from "motion/react";
 import { SectionHeader } from "./SectionHeader";
 
 const skills = [
-  {
-    name: "Artificial Intelligence",
-    blurb: "Designing intelligent systems that reason, perceive and adapt.",
-    glyph: "AI",
-  },
-  {
-    name: "Machine Learning",
-    blurb: "Classical ML, feature engineering, evaluation and tuning.",
-    glyph: "ML",
-  },
-  {
-    name: "Deep Learning",
-    blurb: "CNNs, Transformers, custom architectures and transfer learning.",
-    glyph: "DL",
-  },
-  {
-    name: "Computer Vision",
-    blurb: "Detection, classification and segmentation on real imagery.",
-    glyph: "CV",
-  },
-  {
-    name: "Python",
-    blurb: "Day-to-day language — clean, typed, well-tested.",
-    glyph: "Py",
-  },
-  {
-    name: "TensorFlow / PyTorch",
-    blurb: "Two frameworks, one mindset: ship the model.",
-    glyph: "TF",
-  },
-  {
-    name: "MLOps",
-    blurb: "From notebook to endpoint — pipelines, monitoring, reproducibility.",
-    glyph: "Ops",
-  },
-  {
-    name: "Data & Tooling",
-    blurb: "NumPy, Pandas, OpenCV, Hugging Face, Docker, Git.",
-    glyph: "Δ",
-  },
+  { name: "Java", blurb: "Core language for backend & OOP-driven systems.", glyph: "Jv" },
+  { name: "Python", blurb: "Scripting, automation and AI experimentation.", glyph: "Py" },
+  { name: "JavaScript", blurb: "Full-stack web — from Node APIs to UI.", glyph: "JS" },
+  { name: "C", blurb: "Systems thinking and low-level fundamentals.", glyph: "C" },
+  { name: "Data Structures & Algorithms", blurb: "Daily practice — the muscle behind clean solutions.", glyph: "DSA" },
+  { name: "DBMS & SQL", blurb: "Schema design, queries, and relational modeling.", glyph: "DB" },
+  { name: "Node.js & REST APIs", blurb: "Designing and shipping backend services.", glyph: "Ndx" },
+  { name: "MongoDB · Git · Linux", blurb: "NoSQL, version control, and a comfortable shell.", glyph: "Ops" },
 ];
 
 export function Skills() {
@@ -49,7 +17,7 @@ export function Skills() {
     <section id="skills" className="relative py-32">
       <div className="mx-auto w-[min(1200px,92vw)]">
         <SectionHeader index="02" kicker="Capabilities" title={<>Tools of the trade.</>}>
-          A toolkit shaped by curiosity — equal parts research, engineering and craft.
+          A toolkit shaped by curiosity — equal parts core CS, engineering and craft.
         </SectionHeader>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

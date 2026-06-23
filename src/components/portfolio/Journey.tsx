@@ -4,28 +4,28 @@ import { SectionHeader } from "./SectionHeader";
 
 const milestones = [
   {
-    year: "2024 — Present",
-    title: "AI Engineer",
-    org: "Independent · Research & Builds",
-    body: "Building deep learning systems across vision and language. Focus on shipping models that work outside the notebook.",
+    year: "2024",
+    title: "Infosys Virtual Internship — Java Development",
+    org: "Inventory System · Backend & DB Integration",
+    body: "Built backend logic for an inventory system, integrated databases, and shipped within a structured software engineering workflow.",
   },
   {
-    year: "2023",
-    title: "Deep Learning in Healthcare",
-    org: "Brain Tumor & Skin Disease Detection",
-    body: "Trained, evaluated and packaged classification models for medical imaging — with attention on explainability and bias.",
+    year: "2023 — Present",
+    title: "Backend & AI Projects",
+    org: "Independent · Coursework · Hackathons",
+    body: "Designing APIs, modeling data, and exploring AI — from face recognition robots to full-stack booking platforms.",
   },
   {
     year: "2022",
-    title: "Machine Learning Foundations",
-    org: "Coursework · Kaggle · Open Source",
-    body: "Got serious about ML — classical models, statistics, evaluation, and the boring-but-important parts of MLOps.",
+    title: "DSA & Core CS Deep Dive",
+    org: "Self-study · LeetCode · Coursework",
+    body: "Got serious about Data Structures, Algorithms, OOP, DBMS, and Operating Systems — the foundations everything else stands on.",
   },
   {
     year: "2021",
-    title: "First Python Project",
+    title: "First Lines of Code",
     org: "Started the journey",
-    body: "Wrote my first lines of Python. Quickly fell down the rabbit hole of computer vision and never came back.",
+    body: "Picked up Java and Python, fell in love with solving problems, and never really looked back.",
   },
 ];
 
@@ -40,14 +40,12 @@ export function Journey() {
   return (
     <section id="journey" className="relative py-32">
       <div className="mx-auto w-[min(1200px,92vw)]">
-        <SectionHeader index="04" kicker="Journey" title={<>Connecting the dots.</>}>
+        <SectionHeader index="04" kicker="Experience" title={<>Connecting the dots.</>}>
           A timeline of how I got here — and where I'm headed next.
         </SectionHeader>
 
         <div ref={ref} className="relative pl-8 md:pl-16">
-          {/* base line */}
           <div className="absolute left-2 top-0 h-full w-px bg-border md:left-6" />
-          {/* progress line */}
           <motion.div
             style={{ height: lineHeight }}
             className="absolute left-2 top-0 w-px bg-gradient-to-b from-accent-glow via-primary to-accent md:left-6"
