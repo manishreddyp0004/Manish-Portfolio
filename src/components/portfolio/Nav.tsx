@@ -5,7 +5,8 @@ const links = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Work" },
-  { id: "journey", label: "Journey" },
+  { id: "journey", label: "Experience" },
+  { id: "certifications", label: "Certs" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -42,7 +43,7 @@ export function Nav() {
               <span className="absolute inset-0 rounded-full bg-primary/40 blur-md animate-pulse-glow -z-10" />
             </span>
             <span className="font-display text-sm font-medium tracking-tight">
-              Varshith<span className="text-muted-foreground">.ai</span>
+              Manish<span className="text-muted-foreground">.dev</span>
             </span>
           </a>
           <nav className="hidden items-center gap-7 md:flex">

@@ -44,7 +44,7 @@ export function Loader({ onDone }: { onDone: () => void }) {
               />
             </div>
             <div className="flex w-full justify-between font-mono text-xs text-muted-foreground">
-              <span>VARSHITH.AI</span>
+              <span>MANISH.DEV</span>
               <span>{Math.round(progress * 100).toString().padStart(3, "0")}%</span>
             </div>
           </div>

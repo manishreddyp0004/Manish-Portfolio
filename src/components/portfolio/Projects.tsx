@@ -5,23 +5,23 @@ import { SectionHeader } from "./SectionHeader";
 const projects = [
   {
     n: "01",
-    title: "Brain Tumor Detection",
-    desc: "Deep CNN-based classification pipeline over MRI scans, with explainability via Grad-CAM heatmaps surfacing the regions driving predictions.",
-    stack: ["PyTorch", "OpenCV", "Grad-CAM", "Streamlit"],
+    title: "Intelligent Greeting & Guidance Robot",
+    desc: "Software-based intelligent system using face recognition and AI speech generation for user interaction and simulated navigation.",
+    stack: ["Python", "AI", "Computer Vision"],
     accent: "from-accent/40 to-primary/40",
   },
   {
     n: "02",
-    title: "Skin Disease Detection — HAM10000",
-    desc: "Transfer-learned ResNet/EfficientNet ensemble trained on HAM10000 dermatoscopic images, balanced sampling and TTA for clinical-grade accuracy.",
-    stack: ["TensorFlow", "Keras", "HAM10000", "Albumentations"],
+    title: "Holiday Booking Platform",
+    desc: "Web application for comparing and selecting travel packages using user preferences and a backend integration layer.",
+    stack: ["Node.js", "SQL", "JavaScript"],
     accent: "from-primary/40 to-accent-glow/40",
   },
   {
     n: "03",
-    title: "Financial Health Assistant for Students",
-    desc: "An AI assistant that ingests spending habits, predicts cashflow gaps and recommends nudges — built around an LLM with retrieval over personal data.",
-    stack: ["Python", "LangChain", "FastAPI", "React"],
+    title: "Inventory Management & Reporting System",
+    desc: "System to manage inventory, monitor sales in real time, and generate business reports for decision making.",
+    stack: ["Java", "SQL", "OOP"],
     accent: "from-accent-glow/40 to-accent/40",
   },
 ];
@@ -99,7 +99,7 @@ export function Projects() {
     <section id="projects" className="relative py-32">
       <div className="mx-auto w-[min(1200px,92vw)]">
         <SectionHeader index="03" kicker="Selected work" title={<>Things I've shipped.</>}>
-          A small, opinionated set of projects that show how I think about AI in practice.
+          A small, opinionated set of projects that show how I think about software in practice.
         </SectionHeader>
         <div className="grid gap-6">
           {projects.map((p, i) => (

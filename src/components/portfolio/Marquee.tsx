@@ -1,14 +1,14 @@
 import { motion } from "motion/react";
 
 const items = [
-  "Artificial Intelligence",
-  "Machine Learning",
-  "Deep Learning",
-  "Computer Vision",
-  "MLOps",
-  "PyTorch",
-  "TensorFlow",
+  "Software Development",
+  "Backend Engineering",
+  "Java",
   "Python",
+  "DSA",
+  "Node.js",
+  "SQL · MongoDB",
+  "AI Systems",
 ];
 
 export function Marquee() {

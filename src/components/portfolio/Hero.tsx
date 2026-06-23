@@ -30,7 +30,6 @@ export function Hero() {
       ref={ref}
       className="relative flex min-h-screen items-center overflow-hidden"
     >
-      {/* Aurora */}
       <motion.div
         style={{ x: tx, y: ty }}
         className="pointer-events-none absolute inset-0 -z-10"
@@ -40,7 +39,6 @@ export function Hero() {
         <div className="absolute bottom-0 left-1/3 h-[45vh] w-[45vh] rounded-full bg-accent-glow/20 blur-[120px] animate-aurora [animation-delay:-14s]" />
       </motion.div>
 
-      {/* Grid */}
       <div
         className="pointer-events-none absolute inset-0 -z-10 opacity-[0.07]"
         style={{
@@ -60,14 +58,14 @@ export function Hero() {
           className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-3 py-1.5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-accent-glow animate-pulse-glow" />
-          Amaravati, India · AI Engineer
+          Hyderabad, India · Software Developer
         </motion.div>
 
         <motion.h1
           style={{ rotateX: rotX, rotateY: rotY, transformPerspective: 1200 }}
           className="font-display text-[clamp(2.6rem,9vw,7.5rem)] font-bold leading-[0.95] tracking-tight"
         >
-          {["Hi, I'm", "Varshith", "Julakanti."].map((line, i) => (
+          {["Hi, I'm", "Manish", "Reddy."].map((line, i) => (
             <motion.span
               key={line}
               initial={{ opacity: 0, y: 60, filter: "blur(12px)" }}
@@ -90,8 +88,8 @@ export function Hero() {
           transition={{ delay: 1.1, duration: 0.8 }}
           className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
         >
-          I build <span className="text-foreground">intelligent, AI-driven systems</span>{" "}
-          — from deep learning models to production MLOps pipelines.
+          I build <span className="text-foreground">software solutions</span>{" "}
+          with code, intelligence, and creativity — across backend systems and AI-powered apps.
         </motion.p>
 
         <motion.div
@@ -104,7 +102,7 @@ export function Hero() {
             href="#projects"
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-transform hover:scale-[1.02]"
           >
-            <span className="relative z-10">View selected work</span>
+            <span className="relative z-10">View Projects</span>
             <svg
               className="relative z-10 h-4 w-4 transition-transform group-hover:translate-x-1"
               viewBox="0 0 24 24"
@@ -119,7 +117,7 @@ export function Hero() {
             href="#contact"
             className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-card"
           >
-            Get in touch
+            Contact Me
           </a>
         </motion.div>
       </div>

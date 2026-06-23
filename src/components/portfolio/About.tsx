@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 import { SectionHeader } from "./SectionHeader";
 
 const lines = [
-  "I'm an AI engineer fascinated by the space between research and reality —",
-  "the place where a paper becomes a product, and a model starts to feel useful.",
-  "My work lives across machine learning, deep learning, computer vision and MLOps;",
-  "from training networks on medical imagery to shipping models that hold up in production.",
+  "My journey started with solving problems through code —",
+  "and evolved into building intelligent, scalable applications.",
+  "I'm a Computer Science undergraduate focused on software development,",
+  "backend engineering, data structures & algorithms, and AI-driven systems.",
 ];
 
 export function About() {
@@ -41,10 +41,10 @@ export function About() {
             <div className="absolute -right-12 -top-12 h-48 w-48 rounded-full bg-accent/30 blur-3xl" />
             <dl className="relative space-y-6">
               {[
-                ["Based in", "Amaravati, AP — India"],
-                ["Focus", "AI · ML · DL · CV · MLOps"],
-                ["Stack", "Python · PyTorch · TensorFlow"],
-                ["Currently", "Open to roles & collaborations"],
+                ["Based in", "Hyderabad, Telangana — India"],
+                ["Focus", "Software · Backend · DSA · AI"],
+                ["Stack", "Java · Python · Node · SQL"],
+                ["Currently", "Open to internships & roles"],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col gap-1 border-b border-border pb-4 last:border-0 last:pb-0">
                   <dt className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
